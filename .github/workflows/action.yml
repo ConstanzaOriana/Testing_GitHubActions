@@ -17,6 +17,6 @@ jobs:
         ftp_server: files.000webhost.com
         ftp_username: githubactions
         ftp_password: Invernalia12
-        entrypoint.sh: ftp_server
+        entryPoint: ftp_server
         
         
