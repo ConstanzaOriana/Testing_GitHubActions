@@ -17,5 +17,9 @@ jobs:
         ftp_server: files.000webhost.com
         ftp_username: githubactions
         ftp_password: Invernalia12
-        local-dir: ./
+        local_dir:
+          require: false
+        remote_dir:
+          require: false 
+        
         
