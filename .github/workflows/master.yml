@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: http://127.0.0.1:5500/
+        server: testing-git-hub-actions.vercel.app
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         
